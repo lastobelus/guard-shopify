@@ -14,7 +14,7 @@ module Guard
     end
 
     def config_file_path
-      "#{ENV['HOME']}/.guard_shopify"
+      "#{Dir.pwd}/.guard_shopify"
     end
 
     def get_credentials_from_config
